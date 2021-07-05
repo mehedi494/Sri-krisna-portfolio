@@ -4,39 +4,74 @@ body {
 }
 section {
   display: flex;
+}
+.top-bg {
   background-image: url(img/bg-pattern-2.jpg);
   background-repeat: no-repeat;
-  background-size:100% 39em ;
-  width: 100%;
-  height: 39em;
+  background-size: 100% 39em;
 }
 .half-width {
   width: 50%;
   
+  
 }
 .half-width img {
- width: 100%;
- height: 39em;
- object-fit: cover;
- 
+  width: 110%;
+  height: 38em;
+  
 }
 h1 {
   font-size: 50px;
   color: brown;
 }
-.blue-color{
-    color: rgb(60, 79, 87);
+.blue-color {
+  color: rgb(60, 79, 87);
 }
-h3{
-    color: #A60E01;
+h3 {
+  color: #a60e01;
 }
-p{
-    color: rgb(82, 43, 16);
+h2 {
+  font-size: 30px;
+  color: blueviolet;
 }
-.title {
+p {
+  color: rgb(82, 43, 16);
+  font-size: 20px;
+}
+.top-title {
+  width: 50%;
   padding-right: 5%;
-  padding-top: 150px;
+ 
+
+  padding-top: 10%;
   margin-left: 5%;
   text-align: justify;
-  
 }
+.top-button {
+  font-size: 22px;
+  text-decoration: none;
+  background-image: linear-gradient(rgb(248, 208, 26), rgb(210, 128, 29));
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: rgb(56, 10, 10);
+}
+.mid-title {
+  padding: 10% 5% 5% 5%;
+  text-align: justify;
+}
+
+.mid-img img {
+  width: 90%;
+  padding: 5%;
+}
+.mid-section {
+  background-image: linear-gradient(rgb(115, 139, 160), rgb(223, 240, 245));
+ 
+}
+.mid-button {
+  font-size: 22px;
+  text-decoration: none;
+  background-image: linear-gradient(rgb(51, 61, 71), rgb(223, 26, 75));
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: whitesmoke;
