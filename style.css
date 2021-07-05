@@ -6,29 +6,26 @@ section {
   display: flex;
 }
 .top-bg {
-  background-image: url(img/bg-pattern-2.jpg);
+  background-image: linear-gradient(rgb(73, 65, 138), rgb(158, 94, 122));
   background-repeat: no-repeat;
   background-size: 100% 39em;
 }
 .half-width {
   width: 50%;
-  
-  
 }
 .half-width img {
   width: 110%;
   height: 38em;
-  
 }
 h1 {
   font-size: 50px;
-  color: brown;
+  color: rgb(177, 199, 52);
 }
 .blue-color {
-  color: rgb(60, 79, 87);
+  color: rgb(71, 6, 9);
 }
 h3 {
-  color: #a60e01;
+  color: #abcfb1;
 }
 h2 {
   font-size: 30px;
@@ -41,7 +38,6 @@ p {
 .top-title {
   width: 50%;
   padding-right: 5%;
- 
 
   padding-top: 10%;
   margin-left: 5%;
@@ -66,7 +62,6 @@ p {
 }
 .mid-section {
   background-image: linear-gradient(rgb(115, 139, 160), rgb(223, 240, 245));
- 
 }
 .mid-button {
   font-size: 22px;
@@ -75,3 +70,17 @@ p {
   padding: 10px 30px;
   border-radius: 5px;
   color: whitesmoke;
+}
+
+.box {
+  width: 100%;
+  margin: 5% 5% 5% 5%;
+  padding: 2%;
+
+  box-shadow: 10px 10px 30px rgb(54, 75, 15);
+  background-image: linear-gradient(rgb(155, 238, 173), rgb(119, 180, 21));
+  border-image-slice: 153;
+}
+.box img {
+  width: 100%;
+}
